@@ -1,7 +1,8 @@
 /** total **/
 
 .total {
-    color: #896EAF;
+    color: #ffffff;
+    background: #896EAF
 }
 
  /* count */ 
@@ -16,6 +17,30 @@
 .clap:hover {
     border: 1px solid #896EAF; 
 }
+
+.icon {
+    fill: none;
+    stroke: #896EAF;
+}
+
+.icon.checked {
+    fill: #27ae60;
+    stroke: #fff;
+    stroke-width: 1px;
+}
+
+@keyframes shockwave {
+    0% {
+      transform: scale(1);
+      box-shadow: 0 0 2px #896EAF;
+      opacity: 1;
+    }
+    100% {
+      transform: scale(1);
+      opacity: 0;
+      box-shadow: 0 0 50px #551da3, inset 0 0 10px #896EAF;
+    }
+  }
 
 .cupContainer {
     width: 100px;
